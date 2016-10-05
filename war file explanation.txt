@@ -1,0 +1,9 @@
+The WAR file acts as a binary if you drop it into your JSP engine webapps folder. 
+It also contains the Java source code. When you place it in your running Tomcat 
+(or whatever) it will expand, and you can examine the source code in the appropriate
+ subdirectory of WEB-INF/classes.
+
+You can also extract files from the WAR file just as you would from any other zip file. 
+The WAR is just a zip file with a different extension. There is no functional difference 
+in the internal format. On Windows you can use the Winzip executable to examine the contents
+ of a WAR file. The Linux command-line equivalent is gubzip.
